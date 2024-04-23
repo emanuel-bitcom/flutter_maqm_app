@@ -8,11 +8,13 @@ class Defaults {
     'Home',
     'Write Date',
     'Setup LoRa',
+    'Test NFC',
   ];
 
   static final drawerItemIcon = [
     Icons.home,
     Icons.access_time_filled_sharp,
     Icons.wifi_tethering,
+    Icons.nfc_sharp,
   ];
 }
