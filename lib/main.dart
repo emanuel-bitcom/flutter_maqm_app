@@ -59,10 +59,10 @@ class MainPageState extends State<MainPage> {
         backgroundColor: Colors.blue[300],
         title: Text(
           'mAQM NFC Tools',
-          style: GoogleFonts.sanchez(
+          style: GoogleFonts.roboto(
             color: Colors.white,
             fontSize: 20,
-            fontWeight: FontWeight.w300,
+            fontWeight: FontWeight.w400,
           ),
         ),
       ),
@@ -91,11 +91,11 @@ class MainPageState extends State<MainPage> {
                           AssetImage('assets/images/BitLogoOnly.png'),
                     ),
                     SizedBox(
-                      height: 5,
+                      height: 15,
                     ),
                     Text(
-                      'mini Air Quality Monitor',
-                      style: GoogleFonts.sanchez(
+                      'Mini Air Quality Monitor',
+                      style: GoogleFonts.pacifico(
                         fontSize: 15,
                         color: Colors.white,
                         fontWeight: FontWeight.w200,
@@ -104,14 +104,6 @@ class MainPageState extends State<MainPage> {
                     SizedBox(
                       height: 1,
                     ),
-                    Text(
-                      'hello@bitcom.ro',
-                      style: GoogleFonts.sanchez(
-                        fontSize: 15,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w200,
-                      ),
-                    )
                   ],
                 ),
               ),
@@ -168,7 +160,7 @@ class AppDrawerTile extends StatelessWidget {
             : Defaults.drawerItemColor,
       ),
       title: Text(Defaults.drawerItemText[index],
-          style: GoogleFonts.sanchez(
+          style: GoogleFonts.roboto(
             fontSize: 20,
             fontWeight: FontWeight.w500,
             color: indexClicked == index

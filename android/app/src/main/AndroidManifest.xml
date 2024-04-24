@@ -4,7 +4,7 @@
     <application
         android:label="flutter_nfc_basic_application"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/bit_logo_only">
         <activity
             android:name=".MainActivity"
             android:exported="true"
